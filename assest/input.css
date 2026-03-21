@@ -1,0 +1,31 @@
+/* Import Tailwind first */
+@import "tailwindcss";
+
+/* Define global CSS variables */
+@theme {
+  /* Colors */
+  --color-primary: #555555;
+  --color-secondary: #262626;
+  --color-border: #D9D9D9;
+  
+
+  /* Fonts */
+  --font-primary: "Lato", sans-serif;
+}
+
+/* Custom Tailwind container class with responsive padding */
+.main-container {
+  @apply px-[20px] md:px-[90px];
+}
+
+@layer utilities {
+
+.row{
+    @apply flex flex-row items-center ;
+}
+
+.col{
+    @apply flex flex-col items-center ;
+}
+
+}
