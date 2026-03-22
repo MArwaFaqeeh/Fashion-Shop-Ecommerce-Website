@@ -18,18 +18,18 @@
 
 <body>
     <!-- Header_ 1-->
-    <div class=" h-24  main-container flex flex-col xl:flex-row md:gap-[17.5px] xl:gap-10 justify-between">
+    <header class=" h-24  main-container flex flex-col xl:flex-row sm:gap-[17.5px] xl:gap-10 justify-between">
         <!-- logo+search-->
-        <div class=" flex flex-col gap-14 md:flex-row md:gap-[28.5px] justify-between items-center ">
+        <div class=" flex flex-col gap-14 sm:flex-row sm:gap-[28.5px] justify-between items-center ">
             <div class="row justify-between gap-5 sm:gap-3 ">
-                <div class=" md:hidden"><img src="./assest/img/Landing/header/Menue icon.webp" alt="Menuo" width="21px"
-                        class="md:h-3.5"></div>
+                <div class=" sm:hidden"><img src="./assest/img/Landing/header/Menue icon.webp" alt="Menuo" width="21px"
+                        class="sm:h-3.5"></div>
                 <div class="row gap-1.25 ">
                     <img src="./assest/img/Landing/header/Logo.webp" alt="logo" width="49" height="33"
-                        class="h-6.57 w-10 md:h-8.25 md:w-12.25">
-                    <h1 class="font-bold text-[22px] md:text-[32px]">Luminar</h1>
+                        class="h-6.57 w-10 sm:h-8.25 sm:w-12.25">
+                    <h1 class="font-bold text-[22px] sm:text-[32px]">Luminar</h1>
                 </div>
-                <div class=" md:hidden flex  gap-1  items-center">
+                <div class=" sm:hidden flex  gap-1  items-center">
                     <img src="./assest/img/Landing/header/3.webp" alt="card height=" 24px" width="24px">
                     <img src="./assest/img/Landing/header/Card.webp" alt="Card" height="24px" width="24px"
                         class="invert">
@@ -46,7 +46,7 @@
         </div>
 
 
-        <div class=" hidden md:flex gap-20 max-xl:pb-3 justify-between items-center">
+        <div class=" hidden sm:flex gap-20 max-xl:pb-3 justify-between items-center">
             <div>
                 <ul class=" gap-8 row ">
                     <li><a class="text-primary text-[14px] text-sm" href="#">About us</a></li>
@@ -65,10 +65,10 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </header>
     <!-- Header_ 2-->
-    <div
-        class="hidden md:flex h-19.5 bg-secondary main-container gap-[72.38px] font-primary justify-between items-center">
+    <header
+        class="hidden sm:flex h-19.5 bg-secondary main-container gap-[72.38px] font-primary justify-between items-center">
         <div class="row gap-1">
             <img src="./assest/img/Landing/header/categories.webp" alt="categories" class="h-6 text-xl">
             <h2 class="text-white font-medium text-[20px]">Categories</h2>
@@ -112,24 +112,54 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
     <!-- Header_ 3-->
-    <div class="hidden md:flex md:h-13 main-container font-primary pt-5 justify-between items-center">
-        <ul class="flex md:gap-[17.5px] xl:gap-[57.89px] justify-between items-center ">
-            <li><a href="#" class="text-sm text-[#FF7A00] font-bold">Woman</a></li>
-            <li><a href="#" class="text-sm text-primary">Male</a></li>
-            <li><a href="#" class="text-sm text-primary">Mother-Child</a></li>
-            <li><a href="#" class="text-sm text-primary">Home & Furniture</a></li>
-            <li><a href="#" class="text-sm text-primary">Super market</a></li>
-            <li><a href="#" class="text-sm text-primary">Cosmetics</a></li>
-            <li><a href="#" class="text-sm text-primary">Shoe & Bag</a></li>
-            <li><a href="#" class="text-sm text-primary">Electronic</a></li>
-            <li><a href="#" class="text-sm text-primary">Sport & Outdoor</a></li>
-            <li><a href="#" class="text-sm text-primary">Best seller</a></li>
+    <header class="hidden sm:flex sm:h-13 main-container font-primary py-5 justify-between items-center">
+        <ul class="flex gap-2.5  xl:gap-[59.89px]  items-center justify-start ">
+            <li><a href="#" class="text-sm max-xl:text-xs text-[#FF7A00] font-bold">Woman</a></li>
+            <li><a href="#" class="text-sm text-primary max-xl:text-xs">Male</a></li>
+            <li><a href="#" class="text-sm text-primary max-xl:text-xs">Mother-Child</a></li>
+            <li><a href="#" class="text-sm text-primary max-xl:text-xs">Home & Furniture</a></li>
+            <li><a href="#" class="text-sm text-primary max-xl:text-xs">Super market</a></li>
+            <li><a href="#" class="text-sm text-primary max-xl:text-xs">Cosmetics</a></li>
+            <li><a href="#" class="text-sm text-primary max-xl:text-xs">Shoe & Bag</a></li>
+            <li><a href="#" class="text-sm text-primary max-xl:text-xs">Electronic</a></li>
+            <li><a href="#" class="text-sm text-primary max-xl:text-xs">Sport & Outdoor</a></li>
+            <li><a href="#" class="text-sm text-primary max-xl:text-xs">Best seller</a></li>
         </ul>
-    </div>
+    </header>
 
+   <!--Hero-->
+    <section class=" max-sm:hidden bg-[#76A6EA]  h-[calc(100vh-226px)] font-primary relative flex items-center ">
+    
+            <!--hero-imag-->
+            <div><img src="./assest/img/Landing/hero/style.webp " class=" h-[calc(100vh-226px)] w-136.75" /></div>
+            <!--hero-content-->
+            <div class=" justify-items-center justify-center items-center text-center flex flex-col gap-8  h-full w-[893px]">
+                <h2 class=" font-bold  text-white text-[32px]">Kimonos, Caftans & Pareos</h2>
+                <p class="py-6 text-white  text-[28px]"> Poolside glam included From $4.99</p>
 
+                <div class=" row bg-[#4172DC] gap-2 py-4.5 px-[66.5px]">
+                    <button class=" text-white text-sm font-medium">Shop now</button>
+                    <img src="./assest/img/Landing/hero/Icon_shop.webp" alt="icon-shop" class="w-6 h-6">
+                </div>
+
+            </div>
+
+        <!--card-->
+        <div class="hidden lg:flex lg:flex-col absolute  bottom-37 xl:left-108.25 max-xl:left-70 ">
+            <div class="col gap-2.75 border bg-white py-9 border-white w-57 h-30.75">
+                <h2 class="text-xl font-bold">Summer Essentials</h2>
+                <p class="text-[#FF2E00] text-[28px] font-bold">20% off</p>
+            </div>
+
+            <div class="border bg-black py-2.5  w-57 text-center">
+               <p class="text-white text-sm font-normal">19 Jul-30 Jul</p> 
+            </div>
+
+        </div>
+    </section>
+    
 
 </body>
 

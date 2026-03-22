@@ -1,6 +1,7 @@
 /* Import Tailwind first */
 @import "tailwindcss";
 
+
 /* Define global CSS variables */
 @theme {
   /* Colors */
