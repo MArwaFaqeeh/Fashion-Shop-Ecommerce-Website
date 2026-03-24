@@ -1,6 +1,10 @@
 /* Import Tailwind first */
 @import "tailwindcss";
 
+@plugin "daisyui" {
+  themes: false;
+}
+
 
 /* Define global CSS variables */
 @theme {
@@ -16,7 +20,7 @@
 
 /* Custom Tailwind container class with responsive padding */
 .main-container {
-  @apply px-[20px] md:px-[90px];
+  @apply px-[20px] lg:px-[90px];
 }
 
 @layer utilities {
