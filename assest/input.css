@@ -20,7 +20,7 @@
 
 /* Custom Tailwind container class with responsive padding */
 .main-container {
-  @apply px-[20px] lg:px-[90px];
+  @apply px-5 lg:px-22.5;
 }
 
 @layer utilities {
