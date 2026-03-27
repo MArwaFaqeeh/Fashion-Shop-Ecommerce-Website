@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>search-not-found</title>
+    <title>card</title>
     <link rel="stylesheet" href="./assest/output.css">
 </head>
 
@@ -98,7 +98,7 @@
             </div>
             <div class="row gap-1 text-sm ">
                 <img src="./assest/img/Landing/header/Card.webp" alt="Card" height="24px" width="24px">
-                  <div class="row gap-2">
+                <div class="row gap-2">
                     <a href="./card.html" class="text-white">Card</a>
                     <img src="./assest/img/Landing/header/3.webp" alt="card" height="24px" width="24px">
                 </div>
@@ -108,97 +108,186 @@
     <!-- Header_ 3-->
     <header class="hidden sm:flex sm:h-13 main-container font-primary py-5  w-full">
         <ul class="flex items-center  justify-between  w-full gap-2.5 ">
-            <li><a href="./index.html" class="text-sm max-xl:text-xs  tetxt-sm ">Woman</a></li>
-            <li><a href="#" class="text-sm text-primary max-xl:text-xs  hover:text-[#FF7A00]">Male</a></li>
-            <li><a href="#" class="text-sm text-primary max-xl:text-xs  hover:text-[#FF7A00]">Mother-Child</a></li>
-            <li><a href="#" class="text-sm text-primary max-xl:text-xs  hover:text-[#FF7A00]">Home & Furniture</a></li>
-            <li><a href="#" class="text-sm text-primary max-xl:text-xs  hover:text-[#FF7A00]">Super market</a></li>
-            <li><a href="#" class="text-sm text-primary max-xl:text-xs  hover:text-[#FF7A00]">Cosmetics</a></li>
-            <li><a href="#" class="text-sm text-primary max-xl:text-xs  hover:text-[#FF7A00]">Shoe & Bag</a></li>
-            <li><a href="./SearchNotFound.html" class="text-sm max-xl:text-xs  hover:text-[#FF7A00]  text-[#FF7A00] font-semibold">Electronic</a></li>
-            <li><a href="#" class="text-sm text-primary max-xl:text-xs  hover:text-[#FF7A00]">Sport & Outdoor</a></li>
-            <li><a href="#" class="text-sm text-primary max-xl:text-xs  hover:text-[#FF7A00]">Best seller</a></li>
+            <li><a href="#" class="md:text-sm  text-primary  hover:text-[#FF7A00] ">Woman</a></li>
+            <li><a href="#" class="text-sm text-primary   hover:text-[#FF7A00]">Male</a></li>
+            <li><a href="#" class="text-sm text-primary  hover:text-[#FF7A00]">Mother-Child</a></li>
+            <li><a href="#" class="text-sm text-primary  hover:text-[#FF7A00]">Home & Furniture</a></li>
+            <li><a href="#" class="text-sm text-primary  hover:text-[#FF7A00]">Super market</a></li>
+            <li><a href="#" class="text-sm text-primary  hover:text-[#FF7A00]">Cosmetics</a></li>
+            <li><a href="#" class="text-sm text-primary   hover:text-[#FF7A00]">Shoe & Bag</a></li>
+            <li><a href="./SearchNotFound.html" class="text-sm text-primary  hover:text-[#FF7A00]">Electronic</a></li>
+            <li><a href="#" class="text-sm text-primary  hover:text-[#FF7A00]">Sport & Outdoor</a></li>
+            <li><a href="#" class="text-sm text-primary   hover:text-[#FF7A00]">Best seller</a></li>
         </ul>
     </header>
 
-    <!--No results were found-->
-    <section class="main-container flex flex-col  items-center  md:flex-row md:gap-10 pt-[66.5px] pb-12">
-        <!--image-->
-        <img src="./assest/img/Not-found/not-found.webp" alt="icon-not-found" />
-        <!--content-->
-        <div class="flex flex-col gap-3 border border-border p-5 rounded-lg">
-            <h2 class="font-semibold text-base">No results were found for searching " Blue Sony Camera ".</h2>
-            <div class="row gap-1">
-                <img src="./assest/img/Not-found/warning-polygon.webp" alt="warning" />
-                <p class="text-sm text-primary">We recommend you to search different clear key words to get the best
-                    result.</p>
+
+    <!--product in card-->
+    <section class="flex flex-col  md:flex-row gap-15 main-container font-primary py-20 sm:py-10  ">
+        <!--right-->
+        <div class="flex flex-col gap-6   ">
+            <div class="row gap-1   ">
+                <h2 class="text-xl font-semibold">Card</h2>
+                <p class="text-primary text-xl">3</p>
             </div>
-            <div class="row gap-1">
-                <img src="./assest/img/Not-found/warning-polygon.webp" alt="warning" />
-                <p class="text-sm text-primary">We recommend you to search different clear key words to get the best
-                    result.</p>
+            <!--product1 in card-->
+            <div class="grid grid-cols-3 gap-4 xl:gap-20 xl:grid-cols-[1fr_1fr_0.5fr_101px_0.5fr_40px]  ">
+                <div class="row gap-4 col-span-2 ">
+                    <!--image-->
+                    <img src="./assest/img/card/style.webp" alt="style" />
+                    <!--description-->
+                    <div class="flex flex-col gap-1">
+                        <p class="text-sm font-semibold">2 Pieces Mango set- Regular fit</p>
+                        <div class="row gap-1">
+                            <p class="text-primary text-sm">Color:</p>
+                            <div class="w-3 h-3 bg-[#D3C453] rounded-lg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--unit-price-->
+                <p class="text-primary text-sm">$25.99</p>
+                <!--nmber of product-->
+                <div class="row gap-2.5  border border-border py-2.5 px-4 h-10">
+                    <img src="./assest/img/card/Minus.webp" alt="minus-icon" class="h-4 w-4" />
+                    <p class="text-sm">1</p>
+                    <img src="./assest/img/card/Plus.webp" alt="plus-icon" class="h-4 w-4" />
+
+                </div>
+                <!--all-price-in product-->
+                <p class="text-primary text-sm">$25.99</p>
+                <img src="./assest/img/card/trash.webp" alt="waste">
+
+
+
             </div>
+            <!--product2 in card-->
+            <div class="grid grid-cols-3 gap-4 xl:gap-20 xl:grid-cols-[1fr_1fr_0.5fr_101px_0.5fr_40px]  ">
+
+
+                <div class="row gap-4 col-span-2 ">
+
+                    <!--image-->
+                    <img src="./assest/img/card/style-1.webp" alt="style" />
+                    <!--description-->
+                    <div class="flex flex-col gap-1">
+                        <p class="text-sm font-semibold">3 Pieces Zara set- Casual fit</p>
+                        <div class="row gap-1">
+                            <p class="text-primary text-sm">Color:</p>
+                            <div class="w-3 h-3 bg-black rounded-lg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--unit-price-->
+                <p class="text-primary text-sm">$32.99</p>
+                <!--nmber of product-->
+                <div class="row gap-2.5  border border-border py-2.5 px-4 h-10">
+                    <img src="./assest/img/card/Minus.webp" alt="minus-icon" class="h-4 w-4" />
+                    <p class="text-sm">1</p>
+                    <img src="./assest/img/card/Plus.webp" alt="plus-icon" class="h-4 w-4" />
+
+                </div>
+                <!--total-price-in product-->
+                <p class="text-primary text-sm">$32.99</p>
+                <img src="./assest/img/card/trash.webp" alt="waste">
+
+
+
+            </div>
+            <!--product3 in card-->
+            <div class="grid grid-cols-3 gap-4 xl:gap-20 xl:grid-cols-[1fr_1fr_0.5fr_101px_0.5fr_40px]  ">
+
+
+                <div class="row gap-4 col-span-2 ">
+
+                    <!--image-->
+                    <img src="./assest/img/card/style-2.webp" alt="style" />
+                    <!--description-->
+                    <div class="flex flex-col gap-1">
+                        <p class="text-sm font-semibold">2 Pieces Mango set- Regular fit</p>
+                        <div class="row gap-1">
+                            <p class="text-primary text-sm">Color:</p>
+                            <div class="w-3 h-3 bg-[#4A7AC8] rounded-lg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--unit-price-->
+                <p class="text-primary text-sm">$40.25</p>
+                <!--nmber of product-->
+                <div class="row gap-2.5  border border-border py-2.5 px-4 h-10">
+                    <img src="./assest/img/card/Minus.webp" alt="minus-icon" class="h-4 w-4" />
+                    <p class="text-sm">1</p>
+                    <img src="./assest/img/card/Plus.webp" alt="plus-icon" class="h-4 w-4" />
+
+                </div>
+                <!--total -price-in product-->
+                <p class="text-primary text-sm">$40.25</p>
+                <img src="./assest/img/card/trash.webp" alt="waste">
+
+
+
+            </div>
+
+        </div>
+        <!--left-->
+        <div class="col gap-6">
+            <!--order summary-->
+            <div class="flex flex-col bg-[#E9E9E9] py-5 px-10  gap-3 w-[308px]  rounded-lg">
+                <h4 class="text-base font-semibold">Order Summary</h4>
+                <div class="row justify-between">
+                    <p class="text-sm text-primary">Price</p>
+                    <p class="text-sm">$99.23</p>
+                </div>
+                <div class="row justify-between">
+                    <p class="text-sm text-primary">Shipping</p>
+                    <p class="text-sm">$0</p>
+                </div>
+                <div class="row justify-between">
+                    <p class="text-sm text-primary">Tax</p>
+                    <p class="text-sm">$0</p>
+                </div>
+                <div class="flex flex-col gap-1">
+                    <p class="text-sm text-primary">Discount Price</p>
+                    <div class="row">
+                        <img src="./assest/img/card/alert.webp" alt="warning" class="h-4 w-4 " />
+                        <p class="text-[#FF2E00] text-xs">You must log in to use the discount code</p>
+                    </div>
+                </div>
+
+                <div class="row justify-between">
+                    <div class="row gap-2">
+                        <img src="./assest/img/card/Check box.webp" alt="Check box" class="w-5 h-5" />
+                        <p class=" text-sm text-[#4B5157]">Pack in a Gift Box</p>
+                    </div>
+
+                    <p class=" text-sm text-[#4B5157]">$10.90</p>
+                </div>
+
+                <div class="border border-border  bg-border h-0.5"> </div>
+                <div class="row justify-between">
+                    <p class="text-sm text-secondary font-semibold">Total Price</p>
+                    <p class="text-sm text-secondary font-semibold">$110.13</p>
+                </div>
+
+                <div class="flex items-center border bg-[#434343] py-4 px-8 justify-center gap-2 rounded-lg mt-7">
+                    <img src="./assest/img/card/lock.webp" alt="lock">
+                    <p class="uppercase text-white text-sm">Checkout</p>
+                </div>
+            </div>
+            <!--login-->
+            <div class="border border-[#7B7B7B] w-[308px] h-12 row">
+                <input class="text-primary text-xs font-semibold p-4 " type="text" placeholder="Enter coupon code">
+                <button class="bg-black text-white text-xs font-semibold py-2 px-2.5 h-12 ">Login and Apply
+                    code</button>
+            </div>
+
 
         </div>
 
 
-
-
     </section>
-
-    <!--similar product-->
-    <section class=" main-container hidden md:flex items-center mb-13.5 bg-[#F5F5F5] justify-between gap-18">
-
-        <img src="./assest/img/Landing/public/left.webp" alt="arrow" class="w-8 h-8" />
-        <!--cards-->
-        <di class="row gap-1 ">
-            <!--card1-->
-            <div class="flex flex-col gap-3 bg-white my-5 p-7">
-                <img src="./assest/img/Not-found/camera-1.webp" alt="camera" class="h-62.5 " />
-                <div class="flex flex-col gap-2">
-                    <h4 class="text-base font-semibold">INSTAX Wide 300 Black</h4>
-                    <img src="./assest/img/Not-found/star.webp" alt="four-star" class="w-25 h-6" />
-                    <p class="text-[#FF2E00] text-sm font-semibold">$82.99</p>
-                </div>
-            </div>
-
-            <!--card2-->
-            <div class="flex flex-col gap-3 bg-white my-5 p-7 ">
-                <img src="./assest/img/Not-found/camera-2.webp" alt="camera" class="h-62.5 " />
-                <div class="flex flex-col gap-2">
-                    <h4 class="text-base font-semibold">INSTAX Square SQ1 Chalk</h4>
-                    <img src="./assest/img/Not-found/star.webp" alt="four-star" class="w-25 h-6" />
-                    <div class="row gap-3 ">
-                        <p class="text-[#FF2E00] text-sm font-semibold">$112.99</p>
-                        <p class="text-[#9D9D9D] text-sm">$129.99</p>
-                    </div>
-
-                </div>
-            </div>
-
-            <!--card3-->
-            <div class="flex flex-col gap-3 bg-white my-5 p-7 ">
-                <img src="./assest/img/Not-found/camera.webp" alt="camera" class="h-62.5 " />
-                <div class="flex flex-col gap-2">
-                    <h4 class="text-base font-semibold">INSTAX Wide 300 Black</h4>
-                    <img src="./assest/img/Not-found/star.webp" alt="four-star" class="w-25 h-6" />
-                    <div class="row gap-3 ">
-                        <p class="text-[#FF2E00] text-sm font-semibold">$109</p>
-                        <p class="text-[#9D9D9D] text-sm">$129</p>
-                    </div>
-
-                </div>
-            </div>
-
-        </di>
-
-
-        <img src="./assest/img/Landing/public/right.webp" alt="arrow" class="w-8 h-8">
-
-
-
-    </section>
-
 
 
     <!--footer1-->
@@ -233,8 +322,7 @@
 
 
     </footer>
-
-       <!--footer2-->
+    <!--footer2-->
     <footer class=" main-container font-primary flex flex-col">
         <div class=" flex flex-row justify-between max-md:justify-center p-6 ">
             <div class="row gap-6.25 ">
@@ -267,7 +355,6 @@
         </div>
 
     </footer>
-
 
 </body>
 
